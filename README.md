@@ -16,9 +16,27 @@ Tested both on windows and mac, both the C# and C++ implementations are corss pl
 For C# I used the [System.Drawing.Common](https://github.com/dotnet/runtime) for the Bitmap class to read images the [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar) for the progress bar and [Microsoft.AspNetCore.Cryptography.KeyDerivation](https://dotnet.microsoft.com/apps/aspnet) for the key derivative function all available wiht NuGet 
 
 # Usage
+You can type --help as a command line argument in order for an in app help menu to display 
 
+The first arguemnt must be either --e, --d, or --xor
 
+following --e must be the image you wish to encode followed by the text file name you want to encode followed by the output file name and an option --p for encryption
 
+following --d must be the name of the image you want to decoded and then the output file name and the option --p if the file was encrypted
+
+following --xor must be two image file names and then the output file name
+
+Examples:
+
+--e image.png secret.txt output.png
+
+--d output.png secret.txt
+
+--xor image.png output.png xored.png
+
+--e image.png secret.txt output.png --p
+
+--d output.png secret.txt --p
 
 # What is LSB or least significant bit?
 Least significant bit is the last bit of a byte example: 10110101 the LSB is the very last one 1011010(1)
