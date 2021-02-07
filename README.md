@@ -34,8 +34,8 @@ the image.
 
 take a look at these two images:
 
-![alt text]()
-![alt text]()
+![alt text](https://raw.githubusercontent.com/Car-byte/Steganography/main/Examples/encoded.png)
+![alt text](https://github.com/Car-byte/Steganography/blob/main/Examples/library.png?raw=true)
 
 Can you tell wich one has a message encoded in it whith just your eyes? Im willing to bet you cannot.
 Thats the whole goal while the goal of encyption is to make sure no one can read your message,
