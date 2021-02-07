@@ -1,0 +1,11 @@
+The file encoded.png has been encoded with a message to get the message call the steg.exe file
+with the arguemnts --d encoded.png message.txt a file message.txt will appear with the message in it
+
+another way to hide the message is with xoring the original image and the encoded one
+this results in a very small image file that cannot be undone without the origianl image
+to do this call steg.exe with --xor encoded.png library.png xor.png (xor.png being the output file)
+
+now you will have a file named xor.png which is also included, to get back the encoded image
+xor the original with the xored image aka xor.png call steg.exe with --xor xor.png library.png output.png
+
+output.png will now be same file as encoded.png you can decoded with --d output.png message.txt to recover orignal text
