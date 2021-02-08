@@ -9,7 +9,7 @@ In this small project I use [LSB](https://en.wikipedia.org/wiki/Bit_numbering) s
 
 Other methods including DCT coming soon aka when I get a chance
 
-Tested both on windows and mac, both the C# and C++ implementations are corss platform.
+Tested both on windows and mac.
 
 
 # Dependecys
