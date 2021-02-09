@@ -13,7 +13,7 @@ Tested both on windows and mac.
 
 
 # Dependecys
-For C# I used the [System.Drawing.Common](https://github.com/dotnet/runtime) for the Bitmap class to read images the [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar) for the progress bar and [Microsoft.AspNetCore.Cryptography.KeyDerivation](https://dotnet.microsoft.com/apps/aspnet) for the key derivative function all available wiht NuGet 
+For C# I used the [System.Drawing.Common](https://github.com/dotnet/runtime) for the Bitmap class to read images, the [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar) for the progress bar, and [Microsoft.AspNetCore.Cryptography.KeyDerivation](https://dotnet.microsoft.com/apps/aspnet) for the key derivative function all available wiht NuGet 
 
 # Usage
 You can type --help as a command line argument in order for an in app help menu to display 
