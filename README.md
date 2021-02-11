@@ -58,15 +58,3 @@ take a look at these two images:
 Can you tell wich one has a message encoded in it whith just your eyes? Im willing to bet you cannot.
 Thats the whole goal while the goal of encyption is to make sure no one can read your message,
 steganography is all about concealment, trying to make sure no one knows a message is whithin another message.
-
-
-# Applications
-This is cool and all but, why?
-
-If you were a music company passing out copies of pre-released music and it gets leaked, you could figure out who exactly leaked it.
-
-If you were a company that sells stock photos, you could be able to find out who is using your images without permission.
-
-If you were a law firm and someone leaked evidence in a case, you could know exactly who leaked them.
-
-And much much more...
