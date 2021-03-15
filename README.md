@@ -1,20 +1,16 @@
 # Steganography
 Steganography in C# and C++
 
-Both are compatible with each other, you can encode with the C++ version then decode with the C# version and vice versa
-the encryption is not currently compatible
-
 [Steganography](https://en.wikipedia.org/wiki/Steganography) is the process of hiding data within data.
 
 In this small project I use [LSB](https://en.wikipedia.org/wiki/Bit_numbering) steganograhy.
 
-Other methods including DCT coming soon aka when I get a chance
-
-Tested both on windows and mac.
-
+Other methods including DCT coming soon aka when I get a chance.
 
 # Dependecys
 For C# I used the [System.Drawing.Common](https://github.com/dotnet/runtime) for the Bitmap class to read images, the [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar) for the progress bar, and [Microsoft.AspNetCore.Cryptography.KeyDerivation](https://dotnet.microsoft.com/apps/aspnet) for the key derivative function all available wiht NuGet 
+
+For C++ I used [CryptoPP](https://github.com/weidai11/cryptopp) for the encryption and [OpenCV](https://opencv.org/) for image input and output as well as my own [Base64](https://github.com/Car-byte/Base64) implementation. 
 
 # Usage
 You can type --help as a command line argument in order for an in app help menu to display 
