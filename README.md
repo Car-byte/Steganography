@@ -1,7 +1,8 @@
 # Steganography
-Steganography in C# with a C++ version on its way
+Steganography in C# and C++
 
 Both are compatible with each other, you can encode with the C++ version then decode with the C# version and vice versa
+the encryption is not currently compatible
 
 [Steganography](https://en.wikipedia.org/wiki/Steganography) is the process of hiding data within data.
 
